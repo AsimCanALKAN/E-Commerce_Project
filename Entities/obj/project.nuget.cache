@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TKQ0VQ4xZ0OZpt3ojKo4X+V68TZpgIi5zSrPxW2xeyWXlHDOjRJGx9EhcpuWigwIngeRg/mirAUES0xub9hHDg==",
+  "success": true,
+  "projectFilePath": "/Users/asimcanalkan/Documents/development/FinalProject/Entities/Entities.csproj",
+  "expectedPackageFiles": [
+    "/Users/asimcanalkan/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/asimcanalkan/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

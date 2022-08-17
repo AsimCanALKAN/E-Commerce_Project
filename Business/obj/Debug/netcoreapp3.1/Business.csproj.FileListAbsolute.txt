@@ -1,0 +1,15 @@
+/Users/asimcanalkan/Documents/development/FinalProject/Business/bin/Debug/netcoreapp3.1/Business.deps.json
+/Users/asimcanalkan/Documents/development/FinalProject/Business/bin/Debug/netcoreapp3.1/Business.dll
+/Users/asimcanalkan/Documents/development/FinalProject/Business/bin/Debug/netcoreapp3.1/Business.pdb
+/Users/asimcanalkan/Documents/development/FinalProject/Business/obj/Debug/netcoreapp3.1/Business.csproj.AssemblyReference.cache
+/Users/asimcanalkan/Documents/development/FinalProject/Business/obj/Debug/netcoreapp3.1/Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asimcanalkan/Documents/development/FinalProject/Business/obj/Debug/netcoreapp3.1/Business.AssemblyInfoInputs.cache
+/Users/asimcanalkan/Documents/development/FinalProject/Business/obj/Debug/netcoreapp3.1/Business.AssemblyInfo.cs
+/Users/asimcanalkan/Documents/development/FinalProject/Business/obj/Debug/netcoreapp3.1/Business.csproj.CoreCompileInputs.cache
+/Users/asimcanalkan/Documents/development/FinalProject/Business/obj/Debug/netcoreapp3.1/Business.dll
+/Users/asimcanalkan/Documents/development/FinalProject/Business/obj/Debug/netcoreapp3.1/Business.pdb
+/Users/asimcanalkan/Documents/development/FinalProject/Business/bin/Debug/netcoreapp3.1/DataAccess.dll
+/Users/asimcanalkan/Documents/development/FinalProject/Business/bin/Debug/netcoreapp3.1/Entities.dll
+/Users/asimcanalkan/Documents/development/FinalProject/Business/bin/Debug/netcoreapp3.1/Entities.pdb
+/Users/asimcanalkan/Documents/development/FinalProject/Business/bin/Debug/netcoreapp3.1/DataAccess.pdb
+/Users/asimcanalkan/Documents/development/FinalProject/Business/obj/Debug/netcoreapp3.1/Business.csproj.CopyComplete

@@ -1,0 +1,13 @@
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/bin/Debug/netcoreapp3.1/DataAccess.deps.json
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/bin/Debug/netcoreapp3.1/DataAccess.dll
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/bin/Debug/netcoreapp3.1/DataAccess.pdb
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.csproj.AssemblyReference.cache
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.AssemblyInfoInputs.cache
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.AssemblyInfo.cs
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.csproj.CoreCompileInputs.cache
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.dll
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.pdb
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/bin/Debug/netcoreapp3.1/Entities.dll
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/bin/Debug/netcoreapp3.1/Entities.pdb
+/Users/asimcanalkan/Documents/development/FinalProject/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.csproj.CopyComplete
