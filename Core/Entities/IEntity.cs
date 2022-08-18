@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Entities.Abstract
+namespace Core.Entities
 {
     //If you implement IEntity to class that class is a Database.
     public interface IEntity

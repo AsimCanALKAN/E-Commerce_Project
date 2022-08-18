@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using Core.DataAccess;
 using Entities.Concrete;
 
 namespace DataAccess.Abstract
 {
-    public interface IProductDal : IEntityrepository<Product>
+    public interface IProductDal : IEntityRepository<Product>
     {
+        //Products Specific Process
+
     }
 }
 
