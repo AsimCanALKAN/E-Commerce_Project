@@ -2,6 +2,7 @@
 using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
+using Entities.Concrete;
 
 namespace ConsoleUI
 {
@@ -9,6 +10,8 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            //DTO: Data Transformation Object
+            //IoC
             ProductTest();
             Console.WriteLine("\nCategories \n");
             CategoryTest();
@@ -17,9 +20,30 @@ namespace ConsoleUI
         private static void ProductTest()
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
-            foreach (var product in productManager.GetAll())
+            var result = productManager.GetAll();
+            if (result.Success)
             {
-                Console.WriteLine(product.ProductName);
+                foreach (var product in result.Data)
+                {
+                    Console.WriteLine(product.ProductName);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+
+            var result_2 = productManager.GetProductDetails();
+            if (result_2.Success)
+            {
+                foreach (var product in result_2.Data)
+                {
+                    Console.WriteLine(product.ProductName + "  /  " + product.CategoryName);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result_2.Message);
             }
         }
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Concrete.InMemory
 {
@@ -37,6 +38,11 @@ namespace DataAccess.Concrete.InMemory
         }
 
         public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<ProductDetailDto> GetProductDetails()
         {
             throw new NotImplementedException();
         }
