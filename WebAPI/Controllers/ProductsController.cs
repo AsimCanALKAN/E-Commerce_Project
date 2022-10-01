@@ -8,6 +8,7 @@ using Entities.Concrete;
 using Business.Abstract;
 using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
+using System.Threading;
 
 namespace WebAPI.Controllers
 {
@@ -25,6 +26,8 @@ namespace WebAPI.Controllers
         [HttpGet("getAll")]
         public IActionResult Get()
         {
+            //Thread.Sleep(5000);
+
             var result = _productService.GetAll();
             if (result.Success)
             {

@@ -11,6 +11,28 @@
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Utilities\" />
     <None Remove="Utilities\Results\" />
+    <None Remove="FluentValidation" />
+    <None Remove="Utilities\Interceptions\" />
+    <None Remove="Autofac" />
+    <None Remove="Autofac.Extensions.DependencyInjection" />
+    <None Remove="Autofac.Extras.DynamicProxy" />
+    <None Remove="Aspects\" />
+    <None Remove="Aspects\Autofac\" />
+    <None Remove="Aspects\Autofac\Validation\" />
+    <None Remove="Utilities\Business\" />
+    <None Remove="Entities\Concrete\" />
+    <None Remove="Utilities\Security\" />
+    <None Remove="Utilities\Security\Hashing\" />
+    <None Remove="Utilities\Security\Encryption\" />
+    <None Remove="Utilities\Security\JWT\" />
+    <None Remove="Extensions\" />
+    <None Remove="IoC\" />
+    <None Remove="DependencyResolves\" />
+    <None Remove="Microsoft.AspNetCore.Http" />
+    <None Remove="CrossCuttiongConcerns\Caching\Microsof\" />
+    <None Remove="Aspects\Autofac\Caching\" />
+    <None Remove="Aspects\Autofac\Transaction\" />
+    <None Remove="Aspects\Autofac\Performance\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -18,8 +40,29 @@
     <Folder Include="DataAccess\EntityFramework\" />
     <Folder Include="Utilities\" />
     <Folder Include="Utilities\Results\" />
+    <Folder Include="Utilities\Interceptions\" />
+    <Folder Include="Aspects\" />
+    <Folder Include="Aspects\Autofac\" />
+    <Folder Include="Aspects\Autofac\Validation\" />
+    <Folder Include="Utilities\Business\" />
+    <Folder Include="Entities\Concrete\" />
+    <Folder Include="Utilities\Security\" />
+    <Folder Include="Utilities\Security\Hashing\" />
+    <Folder Include="Utilities\Security\Encryption\" />
+    <Folder Include="Utilities\Security\JWT\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="IoC\" />
+    <Folder Include="DependencyResolves\" />
+    <Folder Include="Aspects\Autofac\Caching\" />
+    <Folder Include="Aspects\Autofac\Transaction\" />
+    <Folder Include="Aspects\Autofac\Performance\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.28" />
+    <PackageReference Include="FluentValidation" Version="11.2.0" />
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
   </ItemGroup>
 </Project>
