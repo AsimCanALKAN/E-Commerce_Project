@@ -54,6 +54,21 @@ namespace WebAPI.Controllers
             }
         }
 
+        // GET: api/values
+        [HttpGet("getByCategory")]
+        public IActionResult GetByCategory(int categoryId)
+        {
+            var result = _productService.GetAllByCategoryId(categoryId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
+        }
+
         // POST: api/values
         [HttpPost("add")]
         public IActionResult Post(Product product)
